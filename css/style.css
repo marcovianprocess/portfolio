@@ -293,7 +293,7 @@ header {
 /* My Services */
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/Pieces-matter.jpg);
+    background-image: url(../img/marbling.png);
     background-size: cover;
     color: var(--clr-dark);
     text-align: center;
