@@ -7,7 +7,7 @@
 /* Custom Properties */
 :root {
     --ff-primary: 'Oxanium', sans-serif;
-    --ff-secondary: 'Roboto', serif;
+    --ff-secondary: 'Roboto', sans-serif;
     
     --fw-reg: 300;
     --fw-bold: 900;
