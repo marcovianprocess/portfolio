@@ -293,9 +293,9 @@ header {
 /* My Services */
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/20190530_131423.jpg);
+    background-image: url(../img/Pieces-matter.jpg);
     background-size: cover;
-    color: var(--clr-light);
+    color: var(--clr-dark);
     text-align: center;
 }
 
