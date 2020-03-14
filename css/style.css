@@ -469,3 +469,10 @@ color: var(--clr-accent);
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.portfolio-item-individual__img {  
+	padding: 0 2em 2em;
+    width: 80%;
+    margin: 0 auto;
+}
+
