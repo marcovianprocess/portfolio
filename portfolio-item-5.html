@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marc Fairbairn Portfolio</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+	<link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Oxanium:300,900|Roboto:300,900&display=swap" rel="stylesheet" >
+        <link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/MPLogo.png" type="image/gif" sizes="16x16">
+        
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/MPLogo.png" alt="The Marcovian Process logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="intro" id="home">
+            <h2 class="section__title section__title--intro">
+                <strong>Designing for citizen science</strong>
+            </h2>
+            <p class="section__subtitle section__subtitle--intro">developing a blended space for observing solitary bees</p>
+            <img src="img/MasonBeeHabitat.jpg" alt="Mason bees in a bee hotel habitat" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>This is the research I carried out for my dissertation, completing my MSc in Computing (User Experience) at Edinburgh Napier University in the summer of 2019.</p>
+		<p>My dissertation was based on an initial conceptual study I'd done to design for the university's Lions' Gate sustainability garden.
+		I'd looked at how to attract visitors to the garden's website by designing an environmentally sustainable system for rigging a beehive with cameras, streaming a live feed to the Web.</p>
+		<img src="img/PrelimSystemMap.png" alt="Preliminary system map">
+          	<p>At the time, the primary aim was to use the interface as an educational tool, but also as a source of revenue via the bees' wax and honey.</p>
+		<img src="img/PrelimWireframe.png" alt="Preliminary wireframe">
+		<p>When I came back to this idea, I realised that I had two major issues that I needed to resolve. Firstly, I didn't have the knowledge or the time to build and maintain a honey bee hive.
+		Secondly, how was I going to get people to visit the site more than once as a novelty?</p>
+		<p>I came up with two solutions to my issues. I solved the bee problem through learning about bee species, and understanding that some species are solitary and don't need to live in large hives.
+		The solution to generating repeat visits came from reading about how people can get involved in environmental causes, and this led me to the subject of citizen science - members of the public recording scientific data in collaboration with researchers.</p>
+		<img src="img/SurveyScreenshot.png" alt="Survey Screenshot">
+		<img src="img/MainAttraction.png" alt="main attraction">
+		<p>I ran a short survey on SurveyMonkey to establish how much people knew about citizen science, and what would motivate them to get involved. It wasn't a subject people tended to know much about, but respondents were enthusiastic about the idea and about taking part when the concept was explained.
+		I also designed a short interview slate for use with participants in citizen science and in permacultural garedning, to get an understanding of how to support their work with my research.</p>
+		<img src="img/InterviewInvitation.png" alt="interview Invitation">
+		<p>With confirmation from the survey that there would be public interest in observing and recording for citizen science, I designed a prototype digital and physical space in which this might be done.</p>
+		<p>My portable prototype's digital space consisted of a simple front end website, which streamed video from two webcams plugged into my laptop. The interface controls allowed participants to capture screenshots and to record written observations about bee behaviours.</p>
+		<img src="img/InterfaceScreen.png" alt="interface screen">
+		<p>The prototype's physical space, which I used for discount usability testing, focused the cameras on a pot plant of the kind which would attract solitary bee species and on a bee hotel habitat of the kind occupied by these species. I used this layout with volunteer participants, recording their responses on a Likert-scaled questionnaire with space for free written observations.</p>
+		<img src="img/PortableBlendedSpace.png" alt="portable blended space">
+		<p>I also carried out the physical space design for locating the system in the Lions' Gate garden, using household security cameras and solar panels.</p>
+		<img src="img/BlendedSpace.png" alt="blended space">
+		<p>My main findings were that while public knowledge of citizen science and permaculture is limited, there is a public interest in participation where time is not a constraining factor. 
+		I also found that if you're trying to get qualitative data from a relatively niche community, it's important to develop a relationship well in advance of doing so; I couldn't get interview participants to take part before my final write-up.
+		Finally, my discount usability engineering work established that interfaces have to be designed with aesthetic concerns in mind as well as functional ones; the prototype was simple and usable, but not overly attractive.</p>
+		<p>My work on this research earned me a high passing grade for the dissertation section of my MSc.</p>	
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:marcovian.process@gmx.com"              class="footer__link">marcovian.process@gmx.com
+            </a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://linkedin.com">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
