@@ -7,7 +7,7 @@
 /* Custom Properties */
 :root {
     --ff-primary: 'Oxanium', sans-serif;
-    --ff-secondary: 'Roboto', serif;
+    --ff-secondary: 'Roboto', sans-serif;
     
     --fw-reg: 300;
     --fw-bold: 900;
@@ -141,7 +141,7 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 175px;
     
 }
 
@@ -392,6 +392,7 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
 }
 
 .portfolio__item {
@@ -401,7 +402,6 @@ header {
 .portfolio__img {
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
     opacity 250ms linear;
-	max-width:100%;
 }
 
 .portfolio__item:focus {
@@ -472,6 +472,6 @@ color: var(--clr-accent);
 
 .portfolio-item-individual__img {  
 	padding: 0 2em 2em;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
