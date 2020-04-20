@@ -462,17 +462,3 @@ color: var(--clr-accent);
 color: var(--clr-accent);
     padding: .5em;
 }
-
-/* Individual portfolio item styles */
-
-.portfolio-item-individual {
-    padding: 0 2em 2em;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.portfolio-item-individual__img {  
-	padding: 0 2em 2em;
-    width: 80%;
-    margin: 0 auto;
-}
